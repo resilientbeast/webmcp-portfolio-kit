@@ -5,7 +5,7 @@ import profile from '../../content/profile.json'
 import { projectCard } from '../lib/portfolio'
 import './Projects.css'
 
-function Projects({ fitMap }) {
+function Projects({ fitMap, engagementOptions, discoveryBrief }) {
     const [selectedProject, setSelectedProject] = useState(null)
     const activeProjects = profile.projects.filter(project => project.status !== 'Completed')
     const completedProjects = profile.projects.filter(project => project.status === 'Completed')
