@@ -5,3 +5,5 @@ dist/
 !.env.example
 
 .vercel
+.env*.local
+.devpost-hackathon-state.json
