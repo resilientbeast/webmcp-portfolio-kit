@@ -5,6 +5,6 @@ export const categoriesFor = skills => [
 
 export const projectDescription = project => project.description || project.challenge || ''
 
-export const projectStats = project => (project.metrics || []).slice(0, 3).map((value, index) => ({ label: ['Evidence', 'Outcome', 'Context'][index], value, color: index === 0 ? 'success' : '' }))
+export const projectStats = project => project.stats || (project.metrics || []).slice(0, 3).map((value, index) => ({ label: ['Evidence', 'Outcome', 'Context'][index], value, color: index === 0 ? 'success' : '' }))
 
-export const projectCard = project => ({ ...project, description: projectDescription(project), stats: projectStats(project) })
+export const projectCard = project => ({ ...project, status: project.display_status || project.status, description: projectDescription(project), stats: projectStats(project) })
