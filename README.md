@@ -7,10 +7,24 @@ An agent-navigable portfolio starter kit. Agents can query skills and project ev
 ## Fork in five minutes
 
 1. Click **Deploy with Vercel** above. No environment variables are required.
-2. Edit `config/site.config.json` for your name, tagline, avatar, accent colour, social links, and contact selectors.
-3. Edit `content/profile.json` for your profile, skills, case studies, and engagement options.
-4. Replace `public/avatar.jpg` and update `avatar` if you use a different filename.
-5. Push your changes. Vercel redeploys the static Vite app.
+2. Visit `/setup` in your fork to create and download a valid `profile.json` and `site.config.json`, or edit the files manually.
+3. Edit `config/site.config.json` for your name, tagline, avatar, accent colour, social links, and contact selectors.
+4. Edit `content/profile.json` for your profile, skills, case studies, and engagement options.
+5. Replace `public/avatar.jpg` and update `avatar` if you use a different filename.
+6. Push your changes. Vercel redeploys the static Vite app.
+
+### Optional Profile Bootstrapper
+
+`/setup` is a browser-only authoring wizard. It creates local, reviewable JSON downloads and does not modify your repository or publish anything.
+
+For a terminal workflow, run `npm run init-profile`. It writes `content/profile.generated.json` by default; validate it before copying it over your content file:
+
+```bash
+npm run init-profile
+npm run validate-content -- config/site.config.json content/profile.generated.json
+```
+
+An optional AI draft button is included for Vercel deployments. It only accepts pasted author-provided text (not marketplace scraping), is off by default, and remains review-only. To enable it in **your own fork**, set `PROFILE_IMPORT_ENABLED=true` and configure a Gateway model with `PROFILE_DRAFT_MODEL` if you do not want the documented default. Never enable it on a public reference site without rate-limit and budget controls appropriate to your audience. See [the Bootstrapper guide](docs/PROFILE_BOOTSTRAPPER.md).
 
 ## Stable WebMCP contract
 

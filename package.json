@@ -7,14 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "validate-content": "node scripts/validate-content.mjs",
-    "validate-fixture": "node scripts/validate-content.mjs ../fixtures/alternate-site.config.json ../fixtures/alternate-profile.json",
+    "validate-fixture": "node scripts/validate-content.mjs fixtures/alternate-site.config.json fixtures/alternate-profile.json",
+    "init-profile": "node scripts/init-profile.mjs",
     "test:forkability": "npm run validate-fixture && node scripts/forkability-smoke.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
+    "ai": "^7.0.90",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

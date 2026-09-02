@@ -8,6 +8,7 @@ import ProjectDetail from './pages/ProjectDetail'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Stack from './pages/Stack'
+import Setup from './pages/Setup'
 import NotFound from './pages/NotFound'
 import { usePortfolioWebMCP } from './hooks/usePortfolioWebMCP'
 import config from '../config/site.config.json'
@@ -43,6 +44,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/stack" element={<Stack agentFilter={skillFilter} />} />
+                    <Route path="/setup" element={<Setup />} />
                     <Route path="/projects" element={<Projects fitMap={fitMap} engagementOptions={engagementOptions} discoveryBrief={discoveryBrief} />} />
                     <Route path="/projects/:slug" element={<ProjectDetail />} />
                     <Route path="/contact" element={<Contact draft={contactDraft} />} />

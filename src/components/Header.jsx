@@ -12,6 +12,7 @@ function Header() {
         { path: '/about', label: './about' },
         { path: '/stack', label: './stack' },
         { path: '/projects', label: './projects' },
+        { path: '/setup', label: './setup' },
         { path: '/contact', label: './contact' },
     ]
 

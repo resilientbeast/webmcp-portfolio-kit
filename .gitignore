@@ -2,6 +2,7 @@ node_modules/
 dist/
 .env
 .env.*
+content/profile.generated.json
 !.env.example
 
 .vercel

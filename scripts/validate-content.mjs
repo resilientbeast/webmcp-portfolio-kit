@@ -1,7 +1,8 @@
 import { readFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
 
-const loadJson = async (path) => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'))
-const [configPath = '../config/site.config.json', contentPath = '../content/profile.json'] = process.argv.slice(2)
+const loadJson = async (path) => JSON.parse(await readFile(resolve(process.cwd(), path), 'utf8'))
+const [configPath = 'config/site.config.json', contentPath = 'content/profile.json'] = process.argv.slice(2)
 const config = await loadJson(configPath)
 const content = await loadJson(contentPath)
 const errors = []
