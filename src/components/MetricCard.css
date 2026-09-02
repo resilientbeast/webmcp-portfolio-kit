@@ -1,0 +1,61 @@
+.metric-card {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-6);
+}
+
+.metric-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.metric-title {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-dim);
+}
+
+.metric-header .material-symbols-outlined {
+    font-size: 18px;
+}
+
+.icon-primary {
+    color: var(--color-primary);
+}
+
+.icon-success {
+    color: var(--color-success);
+}
+
+.icon-purple {
+    color: var(--color-purple);
+}
+
+.icon-warning {
+    color: var(--color-warning);
+}
+
+.metric-value {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    transition: color var(--transition-base);
+}
+
+.metric-card:hover .metric-value {
+    color: var(--color-primary);
+}
+
+.metric-suffix {
+    font-size: var(--text-sm);
+    font-weight: 400;
+    color: var(--color-text-dim);
+    margin-left: var(--space-1);
+}

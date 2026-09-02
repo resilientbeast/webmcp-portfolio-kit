@@ -1,0 +1,253 @@
+.about-page {
+    min-height: 100vh;
+}
+
+/* Hero Section */
+.about-hero {
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-8);
+}
+
+.about-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    margin-top: var(--space-8);
+}
+
+@media (min-width: 1024px) {
+    .about-intro {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.intro-lead {
+    font-size: var(--text-xl);
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-4);
+}
+
+.intro-lead strong {
+    color: var(--color-primary);
+}
+
+.intro-text {
+    font-size: var(--text-base);
+    line-height: 1.7;
+    color: var(--color-text-dim);
+    margin-bottom: var(--space-4);
+}
+
+.intro-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-4);
+    background-color: var(--color-surface-dark);
+    border: 1px solid var(--color-border-dark);
+    border-radius: var(--radius-md);
+    text-align: center;
+}
+
+.stat-number {
+    font-family: var(--font-mono);
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.stat-label {
+    font-size: var(--text-xs);
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: var(--space-1);
+}
+
+/* Timeline Section */
+.timeline-section {
+    padding-top: var(--space-8);
+}
+
+.timeline {
+    position: relative;
+    padding-left: var(--space-8);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom,
+            var(--color-primary),
+            var(--color-border-dark));
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: var(--space-6);
+}
+
+.timeline-marker {
+    position: absolute;
+    left: calc(-1 * var(--space-8) - 8px);
+    top: var(--space-4);
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-bg-dark);
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-marker .material-symbols-outlined {
+    font-size: 16px;
+    color: var(--color-primary);
+}
+
+.timeline-content {
+    padding: var(--space-6);
+}
+
+.timeline-year {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-primary);
+    background-color: rgba(37, 106, 244, 0.1);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-md);
+}
+
+.timeline-title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
+}
+
+.timeline-company {
+    font-size: var(--text-sm);
+    color: var(--color-text-dim);
+    margin-bottom: var(--space-3);
+}
+
+.timeline-description {
+    font-size: var(--text-sm);
+    color: var(--color-text-dim);
+    line-height: 1.6;
+}
+
+/* Certifications Section */
+.certifications-section {
+    padding-top: var(--space-8);
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+}
+
+@media (min-width: 640px) {
+    .cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4);
+}
+
+.cert-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 106, 244, 0.1);
+    border-radius: var(--radius-md);
+}
+
+.cert-icon .material-symbols-outlined {
+    font-size: 24px;
+    color: var(--color-primary);
+}
+
+.cert-info {
+    flex: 1;
+}
+
+.cert-name {
+    font-size: var(--text-base);
+    font-weight: 600;
+    margin-bottom: var(--space-1);
+}
+
+.cert-issuer {
+    font-size: var(--text-sm);
+    color: var(--color-text-dim);
+}
+
+.cert-verified {
+    color: var(--color-success);
+}
+
+.cert-verified .material-symbols-outlined {
+    font-size: 20px;
+}
+
+/* Values Section */
+.values-section {
+    padding-top: var(--space-8);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+}
+
+@media (min-width: 768px) {
+    .values-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.value-card {
+    padding: var(--space-6);
+    text-align: center;
+}
+
+.value-card .material-symbols-outlined {
+    font-size: 32px;
+    color: var(--color-primary);
+    margin-bottom: var(--space-4);
+}
+
+.value-card h3 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-2);
+}
+
+.value-card p {
+    font-size: var(--text-sm);
+    color: var(--color-text-dim);
+    line-height: 1.6;
+}

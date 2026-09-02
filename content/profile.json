@@ -1,0 +1,70 @@
+{
+  "profile": {
+    "role": "Cloud Infrastructure Architect & E-commerce Specialist",
+    "domains": ["cloud infrastructure", "e-commerce platforms", "Linux systems", "security and performance"],
+    "availability": "Available for projects",
+    "experience_years": "15+",
+    "summary": "Cloud infrastructure and e-commerce specialist focused on AWS, Google Cloud, Azure, Linux, WooCommerce, Magento, and Shopify.",
+    "hero": {
+      "headline": ["Architecting Scalable", "E-commerce Infrastructure"],
+      "specialisation": "Specialising in AWS, Google Cloud, Azure & E-commerce Platforms.",
+      "visual_stats": [
+        { "label": "REQ/S", "value": "4,291", "tone": "primary" },
+        { "label": "Status", "value": "HEALTHY", "tone": "success" }
+      ]
+    },
+    "metrics": [
+      { "title": "Experience", "value": "15+ years", "icon": "check_circle", "iconColor": "success" },
+      { "title": "Typical response", "value": "<2hr", "icon": "speed", "iconColor": "primary" },
+      { "title": "Projects worked on", "value": "560+", "icon": "bolt", "iconColor": "purple" }
+    ],
+    "featured_skill_groups": [
+      { "label": "cloud_providers", "category": "cloud", "limit": 4 },
+      { "label": "infrastructure", "category": "infrastructure", "limit": 4 },
+      { "label": "ecommerce", "category": "ecommerce", "limit": 4 },
+      { "label": "databases", "category": "databases", "limit": 4 }
+    ],
+    "service_cards": [
+      { "icon": "cloud", "title": "Cloud Architecture", "description": "Multi-cloud infrastructure design with AWS, GCP, and Azure. Auto-scaling and high availability." },
+      { "icon": "shopping_cart", "title": "E-commerce Hosting", "description": "Optimized hosting for WooCommerce and Magento with caching, CDN, and performance tuning." },
+      { "icon": "security", "title": "Security & Compliance", "description": "SSL/TLS, firewall configuration, GDPR compliance, and security hardening for production systems." },
+      { "icon": "deployed_code", "title": "DevOps & Automation", "description": "CI/CD pipelines, Infrastructure as Code with Terraform, containerization with Docker & Kubernetes." }
+    ],
+    "sources": [{ "label": "PeoplePerHour profile", "url": "https://www.peopleperhour.com/freelancer/technology-programming/arek-hukalowicz-cloud-infrastructure-admin-and-jjayvz", "verified_on": "2026-09-02" }, { "label": "Reference portfolio", "url": "https://portfolio-website-283882201222.us-central1.run.app/", "verified_on": "2026-09-02" }],
+    "marketplace_snapshot": { "rating": "5.0", "review_count": 596, "projects_worked_on": 560, "buyers": 301, "disclaimer": "Public marketplace snapshot captured on 2026-09-02; counts can change." }
+  },
+  "skills": [
+    { "category": "cloud", "name": "AWS", "years": 10, "level": 95, "icon": "☁️", "source": "portfolio" },
+    { "category": "cloud", "name": "Google Cloud", "years": 7, "level": 90, "icon": "🌐", "source": "portfolio" },
+    { "category": "cloud", "name": "Azure", "years": 5, "level": 85, "icon": "⚡", "source": "portfolio" },
+    { "category": "infrastructure", "name": "Linux (RHEL/CentOS)", "years": 15, "level": 98, "icon": "🐧", "source": "portfolio" },
+    { "category": "infrastructure", "name": "Linux (Debian/Ubuntu)", "years": 12, "level": 95, "icon": "🐧", "source": "portfolio" },
+    { "category": "infrastructure", "name": "Docker", "years": 8, "level": 92, "icon": "🐳", "source": "portfolio" },
+    { "category": "infrastructure", "name": "Kubernetes", "years": 5, "level": 88, "icon": "☸️", "source": "portfolio" },
+    { "category": "infrastructure", "name": "Terraform", "years": 4, "level": 85, "icon": "🏗️", "source": "portfolio" },
+    { "category": "ecommerce", "name": "WooCommerce", "years": 10, "level": 95, "icon": "🛒", "source": "pph" },
+    { "category": "ecommerce", "name": "Magento", "years": 9, "level": 92, "icon": "🏪", "source": "pph" },
+    { "category": "ecommerce", "name": "Shopify", "years": 4, "level": 80, "icon": "🛍️", "source": "portfolio" },
+    { "category": "databases", "name": "MySQL/MariaDB", "years": 15, "level": 95, "icon": "🗄️", "source": "portfolio" },
+    { "category": "databases", "name": "PostgreSQL", "years": 8, "level": 88, "icon": "🐘", "source": "portfolio" },
+    { "category": "databases", "name": "Redis", "years": 6, "level": 90, "icon": "🔴", "source": "portfolio" },
+    { "category": "monitoring", "name": "Prometheus", "years": 5, "level": 85, "icon": "📊", "source": "portfolio" },
+    { "category": "monitoring", "name": "Grafana", "years": 6, "level": 90, "icon": "📈", "source": "portfolio" },
+    { "category": "development", "name": "Node.js", "years": 8, "level": 92, "icon": "🟢", "source": "portfolio" },
+    { "category": "development", "name": "React", "years": 5, "level": 85, "icon": "⚛️", "source": "portfolio" },
+    { "category": "development", "name": "PHP", "years": 10, "level": 90, "icon": "🐘", "source": "portfolio" }
+  ],
+  "projects": [
+    { "id": "001", "status": "Completed", "title": "E-commerce Cloud Migration", "tags": ["aws", "docker", "woocommerce", "cloudfront", "migration"], "challenge": "A high-traffic WooCommerce store needed to move from shared hosting and tolerate flash-sale demand.", "actions": "Used auto-scaling EC2, RDS, ElastiCache, and CloudFront.", "stack": ["AWS", "Docker", "WooCommerce", "CloudFront"], "metrics": ["-60% load time", "99.99% uptime", "3x traffic handled"], "evidence_url": "https://portfolio-website-283882201222.us-central1.run.app/", "evidence": { "source": "portfolio", "confidence": "self-reported" } },
+    { "id": "002", "status": "Completed", "title": "Multi-Cloud Infrastructure Setup", "tags": ["aws", "gcp", "kubernetes", "terraform", "disaster recovery"], "challenge": "A SaaS platform required multi-region resilience.", "actions": "Implemented AWS and GCP architecture, Kubernetes, Terraform, automated failover, and recovery procedures.", "stack": ["AWS", "GCP", "Kubernetes", "Terraform"], "metrics": ["<5 minute recovery objective", "35% cost saving", "4 regions"], "evidence_url": "https://portfolio-website-283882201222.us-central1.run.app/", "evidence": { "source": "portfolio", "confidence": "self-reported" } },
+    { "id": "003", "status": "Completed", "title": "Magento Performance Optimization", "tags": ["magento", "varnish", "redis", "mysql", "performance"], "challenge": "A Magento 2 store had severe performance problems at peak demand.", "actions": "Implemented Varnish, Redis caching, MySQL optimisation, and deployment improvements.", "stack": ["Magento", "Varnish", "Redis", "MySQL"], "metrics": ["<1s page load", "500+ concurrent users", "98% cache hit"], "evidence_url": "https://portfolio-website-283882201222.us-central1.run.app/", "evidence": { "source": "portfolio", "confidence": "self-reported" } },
+    { "id": "004", "status": "Completed", "title": "WordPress Security Hardening", "tags": ["wordpress", "security", "waf", "backup", "incident recovery"], "challenge": "A financial-services WordPress site needed recovery after compromise.", "actions": "Performed malware removal and added WAF, backups, 2FA, and monitoring.", "stack": ["WordPress", "Security", "Cloudflare", "Backup"], "metrics": ["24 hour recovery", "15k+ threats blocked", "A+ audit score"], "evidence_url": "https://portfolio-website-283882201222.us-central1.run.app/", "evidence": { "source": "portfolio", "confidence": "self-reported" } },
+    { "id": "WIP-001", "status": "Beta", "slug": "shopify-e-nadawca", "title": "Shopify E-Nadawca Integration", "tags": ["shopify", "next.js", "typescript", "prisma", "shipping"], "challenge": "Connect Shopify order fulfilment to Poczta Polska E-Nadawca services.", "actions": "Built order sync, shipment, labels, manifests, pickup-point, and bulk-operation workflows.", "stack": ["Next.js", "TypeScript", "Prisma", "Shopify Admin API", "SOAP/XML"], "metrics": ["Beta", "SOAP API", "Next.js stack"], "evidence_url": "", "evidence": { "source": "portfolio", "confidence": "self-reported" } }
+  ],
+  "engagement_options": [
+    { "type": "migration", "description": "Plan and execute an e-commerce or hosting migration with validation and rollback planning.", "typical_duration": "2–6 weeks" },
+    { "type": "optimization", "description": "Investigate performance bottlenecks and implement focused infrastructure or application improvements.", "typical_duration": "1–3 weeks" },
+    { "type": "security_audit", "description": "Assess, harden, and document the security posture of a production site.", "typical_duration": "1–2 weeks" },
+    { "type": "advisory", "description": "Provide architecture review, decision support, and a prioritised technical plan.", "typical_duration": "1–5 days" }
+  ]
+}

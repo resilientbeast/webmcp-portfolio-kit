@@ -1,0 +1,22 @@
+{
+  "name": "Jordan Lee",
+  "tagline": "Product Design Consultant",
+  "seo": {
+    "title": "Jordan Lee | Product Design Consultant",
+    "description": "A sample alternative profile used to prove the WebMCP portfolio starter kit is forkable."
+  },
+  "avatar": "/avatar.jpg",
+  "accentColor": "#7c3aed",
+  "contactForm": {
+    "fields": {
+      "name": "#contact-name",
+      "email": "#contact-email",
+      "message": "#contact-message"
+    }
+  },
+  "social": {
+    "github": "",
+    "linkedin": "",
+    "peopleperhour": ""
+  }
+}

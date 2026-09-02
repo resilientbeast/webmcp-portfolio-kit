@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "role": "Product Design Consultant",
+    "domains": ["product discovery", "design systems", "accessibility"],
+    "availability": "Open to selected projects",
+    "experience_years": "8+",
+    "summary": "Independent product designer helping teams research, prototype, and ship accessible digital services.",
+    "hero": {
+      "headline": ["Clarifying Complex", "Product Decisions"],
+      "specialisation": "Specialising in research, design systems, and accessible interface design.",
+      "visual_stats": [
+        { "label": "WORKSHOPS", "value": "42", "tone": "primary" },
+        { "label": "STATUS", "value": "AVAILABLE", "tone": "success" }
+      ]
+    },
+    "metrics": [
+      { "title": "Experience", "value": "8+ years", "icon": "check_circle", "iconColor": "success" },
+      { "title": "Typical response", "value": "<1 day", "icon": "speed", "iconColor": "primary" },
+      { "title": "Case studies", "value": "12", "icon": "bolt", "iconColor": "purple" }
+    ],
+    "featured_skill_groups": [
+      { "label": "research", "category": "research", "limit": 3 },
+      { "label": "design", "category": "design", "limit": 3 }
+    ],
+    "service_cards": [
+      { "icon": "manage_search", "title": "Product discovery", "description": "Research plans, interview synthesis, and clear opportunity framing." },
+      { "icon": "palette", "title": "Design systems", "description": "Reusable interface foundations that keep teams consistent and accessible." }
+    ],
+    "sources": [
+      { "label": "Sample profile fixture", "url": "https://example.invalid", "verified_on": "2026-09-02" }
+    ]
+  },
+  "skills": [
+    { "category": "research", "name": "User interviews", "years": 8, "level": 90, "icon": "🔎", "source": "sample" },
+    { "category": "research", "name": "Usability testing", "years": 7, "level": 88, "icon": "🧪", "source": "sample" },
+    { "category": "design", "name": "Design systems", "years": 6, "level": 90, "icon": "🧩", "source": "sample" },
+    { "category": "design", "name": "Accessibility", "years": 6, "level": 86, "icon": "♿", "source": "sample" }
+  ],
+  "projects": [
+    {
+      "id": "J-001",
+      "status": "Completed",
+      "title": "Public-service design system",
+      "tags": ["accessibility", "design systems", "research"],
+      "challenge": "A public-service team needed consistent accessible patterns across several services.",
+      "actions": "Created tested components, contribution guidance, and an accessibility review workflow.",
+      "stack": ["Figma", "WCAG", "Storybook"],
+      "metrics": ["24 shared components", "AA accessibility target"],
+      "evidence_url": "https://example.invalid/case-study",
+      "evidence": { "source": "sample", "confidence": "illustrative" }
+    }
+  ],
+  "engagement_options": [
+    { "type": "discovery", "description": "A focused research and opportunity-framing engagement.", "typical_duration": "1–2 weeks" },
+    { "type": "design_system", "description": "An assessment and roadmap for reusable accessible UI foundations.", "typical_duration": "2–4 weeks" }
+  ]
+}

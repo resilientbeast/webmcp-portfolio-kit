@@ -1,0 +1,22 @@
+{
+  "name": "Arek Hukalowicz",
+  "tagline": "Cloud Infrastructure Architect & E-commerce Specialist",
+  "seo": {
+    "title": "Arek Hukalowicz | Cloud Infrastructure Architect",
+    "description": "Cloud Infrastructure Architect & E-commerce Specialist — 15+ years building scalable systems across cloud and e-commerce platforms."
+  },
+  "avatar": "/avatar.jpg",
+  "accentColor": "#0f766e",
+  "contactForm": {
+    "fields": {
+      "name": "#contact-name",
+      "email": "#contact-email",
+      "message": "#contact-message"
+    }
+  },
+  "social": {
+    "github": "https://github.com/resilientbeast",
+    "linkedin": "",
+    "peopleperhour": "https://www.peopleperhour.com/freelancer/technology-programming/arek-hukalowicz-cloud-infrastructure-admin-and-jjayvz"
+  }
+}
