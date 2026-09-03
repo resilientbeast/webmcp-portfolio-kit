@@ -7,7 +7,7 @@ An agent-navigable portfolio starter kit. Agents can query skills and project ev
 ## Fork in five minutes
 
 1. Click **Deploy with Vercel** above. No environment variables are required.
-2. Visit `/setup` in your fork to create and download a valid `profile.json` and `site.config.json`, or edit the files manually.
+2. Visit `/setup` directly in your fork to create and download a valid `profile.json` and `site.config.json`, or edit the files manually. The authoring route is deliberately not shown in the public portfolio navigation.
 3. Edit `config/site.config.json` for your name, tagline, avatar, accent colour, social links, and contact selectors.
 4. Edit `content/profile.json` for your profile, skills, case studies, and engagement options.
 5. Replace `public/avatar.jpg` and update `avatar` if you use a different filename.

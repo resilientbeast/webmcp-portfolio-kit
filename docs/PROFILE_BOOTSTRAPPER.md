@@ -1,6 +1,6 @@
 # Portfolio Bootstrapper
 
-The Bootstrapper is an optional authoring aid at `/setup`. It turns user-entered information into downloadable `content/profile.json` and `config/site.config.json` drafts. It does not modify a repository, deploy a site, or send contact messages.
+The Bootstrapper is an optional authoring aid at `/setup`. It is intentionally accessed directly rather than linked from the public portfolio navigation. It turns user-entered information into downloadable `content/profile.json` and `config/site.config.json` drafts. It does not modify a repository, deploy a site, or send contact messages.
 
 ## Manual path: zero configuration
 
