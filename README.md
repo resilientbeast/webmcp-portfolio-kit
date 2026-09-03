@@ -57,15 +57,12 @@ Run `npm run test:forkability` to validate a deliberately unrelated product-desi
 
 Use the [WebMCP testing runbook](docs/WEBMCP_TESTING.md) after deploying. It includes the Chrome DevTools/Tool Inspector check, browser-native test API smoke check, and deterministic `webmcp-evals` command for all eight tools.
 
-For recording, use the [90-second demo script](docs/DEMO_SCRIPT.md).
-
 ## Structure
 
 - `config/`: the small fork surface.
 - `content/`: profile content and evidence.
 - `src/lib/`: generic matching and WebMCP tool code.
 - `src/components/`: reusable UI components.
-- `BEFORE_AND_AFTER.md`: WebMCP extension evidence for the reference project.
 
 ## License
 
